@@ -186,7 +186,7 @@
 {
 	long finalNumber = 0;
 	long thisNum;
-	for(int i = self.cellsInOrder.count - 1 ; i >= 0 ; i--){
+	for(int i = (int)self.cellsInOrder.count - 1 ; i >= 0 ; i--){
 		thisNum = ([[self.cellsInOrder objectAtIndex:i] integerValue] + 1) * pow(10, (self.cellsInOrder.count - i - 1));
 		finalNumber = finalNumber + thisNum;
 	}
