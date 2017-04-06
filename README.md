@@ -15,7 +15,7 @@ Pattern Lock for iOS
 
 ### Cocoapods
 
-		pod 'PatternLock'
+		pod 'PatternLock', :git => 'https://github.com/ykws/SPPatternLock.git', :branch => 'objc'
 
 #### init
 
