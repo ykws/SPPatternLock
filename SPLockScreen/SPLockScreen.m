@@ -133,7 +133,7 @@
 
 - (NSNumber *) uniqueLineIdForLineJoiningPoint:(NSInteger)A AndPoint:(NSInteger)B
 {
-	return @(abs(A+B)*kAlterOne + abs(A-B)*kAlterTwo);
+	return @(labs(A+B)*kAlterOne + labs(A-B)*kAlterTwo);
 }
 
 - (void)handlePanAtPoint:(CGPoint)point
