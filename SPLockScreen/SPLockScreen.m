@@ -109,7 +109,7 @@
 					self.selectedCell = cell;
 				}
 				
-				int row = view.tag/kTagIdentifier - kSeed;
+				NSInteger row = view.tag/kTagIdentifier - kSeed;
 				int column = view.tag % kTagIdentifier - kSeed;
 				return row * 3 + column;
 			}
